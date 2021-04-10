@@ -1,0 +1,45 @@
+{
+  "name": "webpack-extension-loader-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin which facilitates support for various source file extensions.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config ./testbed/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbellman/webpack-extension-loader-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "file",
+    "extension",
+    "loader"
+  ],
+  "author": "Malcolm Bellman",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/mbellman/webpack-extension-loader-plugin/issues"
+  },
+  "homepage": "https://github.com/mbellman/webpack-extension-loader-plugin#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.1",
+    "eslint": "^7.24.0",
+    "less": "^4.1.1",
+    "less-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^1.4.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
