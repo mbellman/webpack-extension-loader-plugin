@@ -8,6 +8,7 @@ const extensionLoaderMap = {
   js: require('./extensions/js'),
   less: require('./extensions/less'),
   scss: require('./extensions/scss'),
+  ts: require('./extensions/ts'),
   vue: require('./extensions/vue')
 };
 
@@ -36,7 +37,7 @@ class ExtensionLoaderPlugin {
       const extensionLoader = extensionLoaderMap[extension];
 
       if (extensionLoader) {
-        extensionLoader.load(compiler.options, packageJson);
+        extensionLoader.load(compiler.options);
       } else {
         console.warn(`${chalk.yellow('[Extension Loader Plugin]')} No loader defined for extension ${chalk.red(`.${extension}`)}`);
       }

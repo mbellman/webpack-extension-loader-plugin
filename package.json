@@ -4,7 +4,7 @@
   "description": "A webpack plugin which facilitates support for various source file extensions.",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack --config ./testbed/webpack.config.js"
+    "test-build": "node_modules/.bin/webpack --config ./testbed/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,8 @@
     "mini-css-extract-plugin": "^1.4.1",
     "node-sass": "^5.0.0",
     "sass-loader": "^11.0.1",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.4",
     "vue-loader": "^15.9.6",
     "vue-template-compiler": "^2.6.12",
     "webpack": "^5.31.2",
